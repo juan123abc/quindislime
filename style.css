@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: "Trirong", serif;
+    margin: 0;
+    padding-top: 60px; 
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: #299f0e;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #76b628;
+}
+
+.burger {
+    display: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.burger i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #299f0e;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    left: 0;
+}
+
+.mobile-menu a {
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-menu a:hover {
+    background: #76b628;
+}
+
+header, section {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    scroll-margin-top: 60px;
+}
+header, section {
+    padding-top: 60px; 
+}
+
+.header {
+    background: url(imagenes/header.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.header .h2 {
+    margin-bottom: 120px;
+    margin-right: 820px;
+}
+
+.header p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid #59c645;
+    color: #ffffff;
+    text-decoration: none;
+    background: #59c645;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.btn {
+    
+        display: inline-block;
+        padding: 10px 40px;
+        border: 2px solid #fbca37;
+        color: #fff;
+        text-decoration: none;
+        background: #fbca37;
+        border-radius: 7px;
+        box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2); 
+        margin-top: 40px;
+    
+}
+.btn:hover{
+    border: #ae8300;
+}
+
+.btn-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background: #ae8300;
+    text-decoration: none;
+}
+
+.Content {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sau {
+    background: #299f0e;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #76b628;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #b1d176;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.sau p {
+    color: #ffffff;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+.sau h2{
+    margin-bottom: 70px;
+}
+.sau .btn {
+    margin-bottom: 85px; 
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #005014;
+}
+.box-container .box p {
+    color: #fff;
+    font-size: 17px;
+}
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #ffffff;
+    padding: 40px 20px; 
+}
+
+.about h2 {
+    color: #299f0e;
+    margin-bottom:  120px; 
+}
+
+.about p {
+    color: #76b628;
+    margin-bottom: 70px; 
+    font-size: 22px;
+}
+
+.about .btn {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid #fbca37;
+    color: #fff;
+    text-decoration: none;
+    background: #fbca37;
+    border-radius: 7px;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+.about .btn:hover {
+    background: #ae8300;
+    border: #ae8300;
+    text-decoration: none;
+}
+.price {
+    background: url(imagenes/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.price h2 {
+    margin-bottom: 120px;
+}
+
+.price p {
+    justify-content: center;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid #59c645;
+    color: #ffffff;
+    text-decoration: none;
+    background: #59c645;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.contact {
+    background: #299f0e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact iframe {
+    margin-bottom: 20px;
+}
+
+
+.contact .btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.content.contact .contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact p,
+.contact iframe,
+.contact .btn-container {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    .header {
+        height: 130vh;
+    }
+    .btn-home {
+        margin-bottom: 130px;
+    }
+    .burger {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #299f0e;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+        display: none;
+        z-index: 99;
+    }
+
+    .mobile-menu.show {
+        display: flex;
+    }
+
+    .mobile-menu a {
+        padding: 15px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-menu a:hover {
+        background: #76b628;
+    }
+}
+
+
+@media (max-width: 1023px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 45px;
+    }
+    .sau {
+        height: auto;
+        padding: 100px 0;
+    }
+    .header {
+        height: 120vh;
+    }
+
+}
+
+
